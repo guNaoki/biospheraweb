@@ -138,5 +138,18 @@ export const products: Product[] = [
       'Aumenta a compatibilidade dos inoculantes com fungicidas e inseticidas'
     ],
     imgUrl: 'https://biosphera.agr.br/wp-content/uploads/2024/01/SAFE-POWER-NOD_Prancheta-1-copia-2.png'
+  },
+  {
+    id: 'bioaction-power',
+    name: 'BIOACTION POWER',
+    category: 'Linha BioAction',
+    description: 'Estimulante biológico concentrado à base de esporos bacterianos estáveis para aumento de vigor e desempenho biológico no campo.',
+    features: [
+      'Alta concentração de esporos que mantêm a estabilidade no tratamento de sementes',
+      'Ativação imediata de rotas de autodefesa e crescimento radicular da plântula',
+      'Estímulo sinérgico da germinação e colonização do sistema de raízes',
+      'Compatibilidade total com fungicidas e inseticidas químicos'
+    ],
+    imgUrl: 'https://biosphera.agr.br/wp-content/uploads/2023/12/BIOACTION-POWER_Prancheta-1-copia-2.png'
   }
 ];

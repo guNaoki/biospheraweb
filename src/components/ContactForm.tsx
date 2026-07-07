@@ -276,6 +276,11 @@ export default function ContactForm({ selectedProduct, onClearProduct }: Contact
                       <option value="NODGROW LÍQUIDO">NODGROW LÍQUIDO</option>
                       <option value="NITROSPHERA ELKANII TURFA">NITROSPHERA ELKANII TURFA</option>
                       <option value="NITROSPHERA FUSION">NITROSPHERA FUSION</option>
+                      <option value="BIOACTION PRO">BIOACTION PRO</option>
+                      <option value="BIOACTION POWER">BIOACTION POWER</option>
+                      <option value="BIOSTART">BIOSTART</option>
+                      <option value="AZOSPHERA">AZOSPHERA</option>
+                      <option value="SAFE POWER NOD">SAFE POWER NOD</option>
                     </select>
                   </div>
                 )}
