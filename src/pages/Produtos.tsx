@@ -110,9 +110,6 @@ export default function Produtos() {
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProducts.map((product) => {
-              // Extract transparent packaging mockup image
-              const packageImg = product.id === 'nitrosphera-dualtech' ? product.imgUrl : product.logoUrl;
-              
               return (
                 <div
                   key={product.id}
@@ -137,7 +134,7 @@ export default function Produtos() {
                     {/* Inner glowing circle behind packaging */}
                     <div className="absolute w-40 h-40 bg-slate-50 rounded-full group-hover:bg-brand-green/5 transition-colors duration-300 scale-90"></div>
                     <img
-                      src={packageImg}
+                      src={product.imgUrl}
                       alt={product.name}
                       className="max-h-full object-contain filter drop-shadow-[0_15px_20px_rgba(0,0,0,0.12)] group-hover:scale-105 group-hover:-translate-y-3 transition-all duration-300 relative z-10"
                       onError={(e) => {
